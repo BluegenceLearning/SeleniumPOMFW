@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3948" started-at="2017-11-02T20:04:09Z" finished-at="2017-11-02T20:04:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3948" started-at="2017-11-02T20:04:09Z" finished-at="2017-11-02T20:04:13Z">
+      <class name="testScripts.VerifyLoginPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testScripts.VerifyLoginPage@5792a0]" name="beforeTest" is-config="true" duration-ms="3144" started-at="2017-11-02T16:04:06Z" finished-at="2017-11-02T16:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="PegaEFOLogin()[pri:0, instance:testScripts.VerifyLoginPage@5792a0]" name="PegaEFOLogin" duration-ms="3922" started-at="2017-11-02T16:04:09Z" finished-at="2017-11-02T16:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PegaEFOLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScripts.VerifyLoginPage@5792a0]" name="getResult" is-config="true" duration-ms="6" started-at="2017-11-02T16:04:13Z" finished-at="2017-11-02T16:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PegaEFOLogin status=SUCCESS method=VerifyLoginPage.PegaEFOLogin()[pri:0, instance:testScripts.VerifyLoginPage@5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.VerifyLoginPage@5792a0]" name="tearDown" is-config="true" duration-ms="1605" started-at="2017-11-02T16:04:13Z" finished-at="2017-11-02T16:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.VerifyLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestSuite]" parallel="none">
+  <test name="PegaEFOTest(failed)" parallel="none">
+    <classes>
+      <class name="testScripts.VerifyLoginPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="PegaEFOLogin"/>
+          <include name="test"/>
+          <include name="Login3"/>
+        </methods>
+      </class> <!-- testScripts.VerifyLoginPage -->
+    </classes>
+  </test> <!-- PegaEFOTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
